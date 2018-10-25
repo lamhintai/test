@@ -85,7 +85,7 @@ plt.xlabel("x")
 plt.ylabel("y")
 plt.legend()
 plt.axvline(x=2)
-plt.savefig('q3a.png',dpi=720)
+plt.savefig('q3b1.png',dpi=720)
 plt.title('Gamma(2,1/2) pdf and Normal(2,4) pdf')
 plt.show()
 
@@ -94,6 +94,7 @@ plt.plot(Dist, np.abs(Err))
 plt.xlabel('sigma')
 plt.ylabel('Approximation Error')
 plt.title('Laplace Approximation Error for Gamma(2,1/2) Distribution')
+plt.savefig('q3b2.png',dpi=720)
 plt.show()
 
 # Integration from 1 to 3 based on cdf
