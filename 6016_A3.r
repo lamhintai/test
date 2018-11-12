@@ -11,7 +11,7 @@ library(foreach)
 library(parallel)
 library(doParallel)
 library(FNN)
-
+library(rgeos)
 
 h <- readRDS('C:/Users/Tai/Documents/MStat 2018/S4 6016 Spatial Data Analysis/Assignment 3/houses2000.rds')
 
@@ -127,3 +127,59 @@ str(Wnn)
 for (i in seq_len(n)) {
   Wnn[i,] <- Wnn[i,]/sum(Wnn[i,])
 }
+
+# Calculating intersecting perimeters
+touchingList <- gTouches(h, byid=TRUE, returnDense=FALSE)
+str(touchingList)
+# Calculating perimeters of every polygon
+perimeters <- sp::SpatialLinesLengths(as(h, "SpatialLines"))
+str(perimeters)
+
+#### test code below ####
+calcTouchingLength <- function(fromGeom, toGeomList) {
+  if (length(toGeomList) == 0) {
+    # There is no neighbour so return empty data frame
+    return(NULL)
+  } else {
+    lines <- lapply(toGeomList, function(toGeom) {
+      intersectGeom <- rgeos::gIntersection(fromGeom, toGeom, byid=TRUE)
+      if (class(intersectGeom) == "SpatialPoints") {
+        # Make a line from the point to itself
+        selfLine <- Line(rbind(intersectGeom@coords, intersectGeom@coords))
+        # a SpatialPoint has the ID stored as the coords's rowname
+        selfLines <- Lines(list(selfLine), ID=rowname(intersectGeom@coords))
+        SpatialLines(list(selfLines))
+      } else {  # SpatialLines
+        intersectGeom
+      }
+    })
+    return(sp::SpatialLinesLengths(lines))
+  }
+}
+
+all.length.list <- lapply(h[1:length(touchingList),], calcTouchingLength, )
+
+all.length.list <- lapply(1:length(touchingList), function(from) {
+  if (length(touchingList[[from]]) == 0) {
+    return()
+  } else {
+    list.lines <- rgeos::gIntersection(h[from,], h[touchingList[[from]],], byid=TRUE)
+    if (class(lines) != "SpatialLines") {
+      lines <- lapply(1:length(touchingList[[from]]), function(to) {
+        line.single <- rgeos::gIntersection(h[from,], h[touchingList[[from]][to],], byid=TRUE)
+        if (class(line.single) == "SpatialPoints") {
+          
+        }
+      })
+      lines <-
+    }
+    l_lines <- sp::SpatialLinesLengths(lines)
+    res <- data.frame(origin = from,
+                      perimeter = perimeters[from],
+                      touching = touchingList[[from]],
+                      t.length = l_lines,
+                      t.pc = 100*l_lines/perimeters[from])
+    return(res)
+  }
+})
+####
