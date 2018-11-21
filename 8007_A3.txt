@@ -1,0 +1,55 @@
+3 (a) Troublesome variables
+The variables momalc and dadalc may be correlated with variable alcdep or even educ and poorhlth, as the parent(s) being alcoholic can affect the individual’s alcoholic dependency, and also pre-exposes the individual to a poor health and poor education at an early age.
+The variable for individual alcohol dependency, alcdep, may have some measurement error, as it looks to be a self-reported measure. One may not report oneself as alcohol dependent / abuse, because the question is sensitive. We may suspect this variable has some measurement error.
+Individuals may mis-report their years of education.
+Therefore, momalc and dadalc are omitted variables; alcdep, educ and poorhlth are also troublesome variables.
+
+3 (b)
+
+3 (c)
+
+3 (d) Instruments are valid?
+Using momalc, dadalc as instruments for alcdep is valid as parenting is an important factor in a person’s alcoholic dependency, because if the parents’ alcoholic usage is high it is more likely the person will be exposed to alcohol more easily.
+Also, stalccon is the local environment’s per capita alcohol usage which can affect one’s alcohol usage. Similarly for the factor beertax as it affects the price of obtaining alcohol.
+
+3 (e)
+
+--
+
+/* 8007 Assignment 3 */
+/* Author: LAM Hin Tai */
+/* UID: 2004062587 */
+
+proc import out=alchunemp
+    datafile="C:\Users\Tai\Documents\MStat 2018\S4 8007 Statistical Methods for Economics and Finance\Assignment 3\alchunemp.csv"
+    dbms=csv replace;
+    getnames=yes;
+    datarow=2;
+run;
+
+/* Q3 (b) */
+title "Estimate by OLS";
+proc reg data=alchunemp plots=none;
+    Alc_OLS_check: model unemploy=stunempl educ married poorhlth alcdep;
+run;
+proc syslin data=alchunemp ols plots=none;
+    Alc_OLS: model unemploy=stunempl educ married poorhlth alcdep;
+run;
+
+
+/* Q3 (c) */
+title "Estimate by 2SLS - Endogenous alcdep only";
+proc syslin data=alchunemp 2sls plots=none;
+    endogenous alcdep;
+    instruments momalc dadalc stalccon beertax;
+    Alc_2SLS_c: model unemploy=stunempl educ married poorhlth alcdep;
+run;
+
+/* Q3 (e) */
+title "Estimate by 2SLS - Endogenous alcdep married";
+proc syslin data=alchunemp 2sls plots=none;
+    endogenous alcdep married;
+    instruments momalc dadalc stalccon beertax;
+    Alc_2SLS_e: model unemploy=stunempl educ married poorhlth alcdep;
+run;
+
