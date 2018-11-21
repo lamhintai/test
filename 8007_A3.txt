@@ -2,7 +2,7 @@
 The variables momalc and dadalc may be correlated with variable alcdep or even educ and poorhlth, as the parent(s) being alcoholic can affect the individual’s alcoholic dependency, and also pre-exposes the individual to a poor health and poor education at an early age.
 The variable for individual alcohol dependency, alcdep, may have some measurement error, as it looks to be a self-reported measure. One may not report oneself as alcohol dependent / abuse, because the question is sensitive. We may suspect this variable has some measurement error.
 Individuals may mis-report their years of education.
-Therefore, momalc and dadalc are omitted variables; alcdep, educ and poorhlth are also troublesome variables.
+Therefore, alcdep is a troublesome variable; educ and poorhlth are also likely troublesome variables.
 
 3 (b)
 
@@ -11,6 +11,7 @@ Therefore, momalc and dadalc are omitted variables; alcdep, educ and poorhlth ar
 3 (d) Instruments are valid?
 Using momalc, dadalc as instruments for alcdep is valid as parenting is an important factor in a person’s alcoholic dependency, because if the parents’ alcoholic usage is high it is more likely the person will be exposed to alcohol more easily.
 Also, stalccon is the local environment’s per capita alcohol usage which can affect one’s alcohol usage. Similarly for the factor beertax as it affects the price of obtaining alcohol.
+So, these are all correlated with alcdep and therefore are valid instruments.
 
 3 (e)
 
