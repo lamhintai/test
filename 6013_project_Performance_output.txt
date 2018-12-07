@@ -1,0 +1,976 @@
+[1] "Model trained by data 2001-01-01 to 2002-12-31"
+[1] "Model trained in 2001-01-01 - 2003-12-31 using simple"
+[1] "Risk performance in testing period: 2003-01-02 - 2003-12-31"
+                                GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                   0.08890000                NA
+Historical VaR (95%)              -0.00940000                NA
+Historical ES (95%)               -0.01190000                NA
+Modified VaR (95%)                -0.00920000                NA
+Modified ES (95%)                 -0.01190000                NA
+Annualized Return                  0.35790515                NA
+Annualized Standard Deviation      0.09860375                NA
+Annualized Sharpe Ratio (Rf=1%)    3.49172632                NA
+                                GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                    0.1192000         0.1552000    0.2582000
+Historical VaR (95%)               -0.0099000        -0.0235000   -0.0309000
+Historical ES (95%)                -0.0135000        -0.0319000   -0.0505000
+Modified VaR (95%)                 -0.0100000        -0.0229000   -0.0349000
+Modified ES (95%)                  -0.0133000        -0.0330000   -0.0652000
+Annualized Return                   0.3923765         0.5098398    0.6302043
+Annualized Standard Deviation       0.1051342         0.2254112    0.3263751
+Annualized Sharpe Ratio (Rf=1%)     3.5994429         2.1947200    1.8808923
+[1] "Model trained in 2001-01-01 - 2003-12-31 using EWMA"
+[1] "Risk performance in testing period: 2003-01-02 - 2003-12-31"
+                                GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                  0.0836000              NA
+Historical VaR (95%)             -0.0111000              NA
+Historical ES (95%)              -0.0160000              NA
+Modified VaR (95%)               -0.0114000              NA
+Modified ES (95%)                -0.0155000              NA
+Annualized Return                 0.4747145              NA
+Annualized Standard Deviation     0.1194477              NA
+Annualized Sharpe Ratio (Rf=1%)   3.8505618              NA
+                                GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                  0.1006000       0.1047000  0.1961000
+Historical VaR (95%)             -0.0116000      -0.0181000 -0.0209000
+Historical ES (95%)              -0.0158000      -0.0219000 -0.0329000
+Modified VaR (95%)               -0.0116000      -0.0164000 -0.0240000
+Modified ES (95%)                -0.0151000      -0.0220000 -0.0326000
+Annualized Return                 0.4348219       0.6897418  1.0255625
+Annualized Standard Deviation     0.1180791       0.1698144  0.2550333
+Annualized Sharpe Ratio (Rf=1%)   3.5607174       3.9621057  3.9418145
+[1] "Model trained in 2001-01-01 - 2003-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2003-01-02 - 2003-12-31"
+                                GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                        0.09330000                     NA
+Historical VaR (95%)                   -0.00840000                     NA
+Historical ES (95%)                    -0.01200000                     NA
+Modified VaR (95%)                     -0.00920000                     NA
+Modified ES (95%)                      -0.01200000                     NA
+Annualized Return                       0.35782371                     NA
+Annualized Standard Deviation           0.09802186                     NA
+Annualized Sharpe Ratio (Rf=1%)         3.51163163                     NA
+                                GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                         0.1196000                     NA         0.2582000
+Historical VaR (95%)                    -0.0102000                     NA        -0.0309000
+Historical ES (95%)                     -0.0134000                     NA        -0.0505000
+Modified VaR (95%)                      -0.0100000                     NA        -0.0349000
+Modified ES (95%)                       -0.0133000                     NA        -0.0652000
+Annualized Return                        0.3861204                     NA         0.6301993
+Annualized Standard Deviation            0.1050600                     NA         0.3263680
+Annualized Sharpe Ratio (Rf=1%)          3.5430328                     NA         1.8809177
+[1] "Model trained by data 2002-01-02 to 2003-12-31"
+[1] "Model trained in 2002-01-02 - 2004-12-31 using simple"
+[1] "Risk performance in testing period: 2004-01-02 - 2004-12-31"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                      0.1132000       0.275100000
+Historical VaR (95%)                 -0.0111000      -0.031500000
+Historical ES (95%)                  -0.0167000      -0.047000000
+Modified VaR (95%)                   -0.0116000      -0.033800000
+Modified ES (95%)                    -0.0183000      -0.047000000
+Annualized Return                     0.2256360       0.011569379
+Annualized Standard Deviation         0.1099281       0.296736841
+Annualized Sharpe Ratio (Rf=1.4%)     1.9004766      -0.007559231
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                      0.1265000         0.1863000  0.362200000
+Historical VaR (95%)                 -0.0107000        -0.0167000 -0.038600000
+Historical ES (95%)                  -0.0172000        -0.0250000 -0.051600000
+Modified VaR (95%)                   -0.0118000        -0.0177000 -0.033400000
+Modified ES (95%)                    -0.0191000        -0.0270000 -0.053000000
+Annualized Return                     0.2149894         0.1563035 -0.003646106
+Annualized Standard Deviation         0.1128719         0.1626928  0.331804218
+Annualized Sharpe Ratio (Rf=1.4%)     1.7578678         0.8637449 -0.051995130
+[1] "Model trained in 2002-01-02 - 2004-12-31 using EWMA"
+[1] "Risk performance in testing period: 2004-01-02 - 2004-12-31"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                   0.08910000       0.1470000
+Historical VaR (95%)              -0.00980000      -0.0162000
+Historical ES (95%)               -0.01350000      -0.0227000
+Modified VaR (95%)                -0.00960000      -0.0159000
+Modified ES (95%)                 -0.01310000      -0.0226000
+Annualized Return                  0.22364764       0.2029984
+Annualized Standard Deviation      0.09725195       0.1448063
+Annualized Sharpe Ratio (Rf=1.4%)  2.12802419       1.2885178
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                   0.09780000       0.1407000  0.3366000
+Historical VaR (95%)              -0.01070000      -0.0143000 -0.0299000
+Historical ES (95%)               -0.01410000      -0.0211000 -0.0450000
+Modified VaR (95%)                -0.01010000      -0.0147000 -0.0319000
+Modified ES (95%)                 -0.01480000      -0.0223000 -0.0490000
+Annualized Return                  0.18068381       0.2237250  0.2861461
+Annualized Standard Deviation      0.09750052       0.1351247  0.2962881
+Annualized Sharpe Ratio (Rf=1.4%)  1.68793472       1.5321446  0.9065538
+[1] "Model trained in 2002-01-02 - 2004-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2004-01-02 - 2004-12-31"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                           0.1148000              0.1165000
+Historical VaR (95%)                      -0.0108000             -0.0111000
+Historical ES (95%)                       -0.0168000             -0.0175000
+Modified VaR (95%)                        -0.0117000             -0.0118000
+Modified ES (95%)                         -0.0184000             -0.0187000
+Annualized Return                          0.2281186              0.2261587
+Annualized Standard Deviation              0.1104638              0.1115757
+Annualized Sharpe Ratio (Rf=1.4%)          1.9134289              1.8770324
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                           0.1261000              0.1270000       0.362200000
+Historical VaR (95%)                      -0.0107000             -0.0107000      -0.038600000
+Historical ES (95%)                       -0.0172000             -0.0173000      -0.051600000
+Modified VaR (95%)                        -0.0118000             -0.0119000      -0.033400000
+Modified ES (95%)                         -0.0191000             -0.0192000      -0.053000000
+Annualized Return                          0.2180782              0.2183876      -0.003644719
+Annualized Standard Deviation              0.1128648              0.1134958       0.331797939
+Annualized Sharpe Ratio (Rf=1.4%)          1.7849735              1.7777371      -0.051991988
+[1] "Model trained by data 2003-01-02 to 2004-12-31"
+[1] "Model trained in 2003-01-02 - 2005-12-30 using simple"
+[1] "Risk performance in testing period: 2005-01-03 - 2005-12-30"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                     0.05830000         0.0964000
+Historical VaR (95%)                -0.00670000        -0.0111000
+Historical ES (95%)                 -0.00950000        -0.0170000
+Modified VaR (95%)                  -0.00720000        -0.0121000
+Modified ES (95%)                   -0.00960000        -0.0193000
+Annualized Return                    0.06450309         0.2139927
+Annualized Standard Deviation        0.07166336         0.1143059
+Annualized Sharpe Ratio (Rf=3.1%)    0.43967003         1.5430793
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                     0.06680000         0.1030000    0.1683000
+Historical VaR (95%)                -0.00690000        -0.0110000   -0.0280000
+Historical ES (95%)                 -0.01070000        -0.0172000   -0.0402000
+Modified VaR (95%)                  -0.00780000        -0.0121000   -0.0298000
+Modified ES (95%)                   -0.01130000        -0.0188000   -0.0387000
+Annualized Return                    0.10554547         0.2441402    0.4813287
+Annualized Standard Deviation        0.07606713         0.1145127    0.2845839
+Annualized Sharpe Ratio (Rf=3.1%)    0.93711299         1.7954361    1.5301868
+[1] "Model trained in 2003-01-02 - 2005-12-30 using EWMA"
+[1] "Risk performance in testing period: 2005-01-03 - 2005-12-30"
+                                   GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                   0.060800000       0.1480000
+Historical VaR (95%)              -0.008200000      -0.0179000
+Historical ES (95%)               -0.010000000      -0.0234000
+Modified VaR (95%)                -0.008000000      -0.0179000
+Modified ES (95%)                 -0.009900000      -0.0230000
+Annualized Return                 -0.001765749       0.2496552
+Annualized Standard Deviation      0.075909681       0.1750585
+Annualized Sharpe Ratio (Rf=3.1%) -0.430964500       1.2049900
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                   0.05650000       0.1361000  0.1683000
+Historical VaR (95%)              -0.00730000      -0.0143000 -0.0280000
+Historical ES (95%)               -0.00900000      -0.0192000 -0.0402000
+Modified VaR (95%)                -0.00690000      -0.0140000 -0.0298000
+Modified ES (95%)                 -0.00880000      -0.0189000 -0.0387000
+Annualized Return                  0.06644193       0.3215141  0.4813287
+Annualized Standard Deviation      0.06885739       0.1377918  0.2845839
+Annualized Sharpe Ratio (Rf=3.1%)  0.48487514       2.0363071  1.5301868
+[1] "Model trained in 2003-01-02 - 2005-12-30 using Bayes-Stein"
+[1] "Risk performance in testing period: 2005-01-03 - 2005-12-30"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                          0.05940000             0.05990000
+Historical VaR (95%)                     -0.00680000            -0.00680000
+Historical ES (95%)                      -0.00950000            -0.00960000
+Modified VaR (95%)                       -0.00720000            -0.00720000
+Modified ES (95%)                        -0.00960000            -0.00960000
+Annualized Return                         0.06722534             0.06889934
+Annualized Standard Deviation             0.07153134             0.07170869
+Annualized Sharpe Ratio (Rf=3.1%)         0.47736325             0.49880637
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                          0.06640000             0.06650000         0.1683000
+Historical VaR (95%)                     -0.00690000            -0.00690000        -0.0280000
+Historical ES (95%)                      -0.01060000            -0.01060000        -0.0402000
+Modified VaR (95%)                       -0.00780000            -0.00780000        -0.0298000
+Modified ES (95%)                        -0.01110000            -0.01110000        -0.0387000
+Annualized Return                         0.10289878             0.10317129         0.4813250
+Annualized Standard Deviation             0.07567939             0.07580513         0.2845811
+Annualized Sharpe Ratio (Rf=3.1%)         0.90802161             0.90999932         1.5301892
+[1] "Model trained by data 2004-01-02 to 2005-12-30"
+[1] "Model trained in 2004-01-02 - 2006-12-29 using simple"
+[1] "Risk performance in testing period: 2006-01-02 - 2006-12-29"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                     0.06070000         0.2841000
+Historical VaR (95%)                -0.00630000        -0.0282000
+Historical ES (95%)                 -0.00910000        -0.0387000
+Modified VaR (95%)                  -0.00660000        -0.0273000
+Modified ES (95%)                   -0.00950000        -0.0399000
+Annualized Return                    0.17257213         0.1903656
+Annualized Standard Deviation        0.07024153         0.2610520
+Annualized Sharpe Ratio (Rf=4.7%)    1.68602034         0.5186589
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                     0.10920000         0.2503000    0.2859000
+Historical VaR (95%)                -0.00960000        -0.0203000   -0.0269000
+Historical ES (95%)                 -0.01240000        -0.0294000   -0.0373000
+Modified VaR (95%)                  -0.00870000        -0.0202000   -0.0252000
+Modified ES (95%)                   -0.01290000        -0.0319000   -0.0372000
+Annualized Return                    0.25199204         0.3390666    0.3512984
+Annualized Standard Deviation        0.09013681         0.1979688    0.2644181
+Annualized Sharpe Ratio (Rf=4.7%)    2.15445477         1.4005380    1.0926965
+[1] "Model trained in 2004-01-02 - 2006-12-29 using EWMA"
+[1] "Risk performance in testing period: 2006-01-02 - 2006-12-29"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                   0.09270000     0.404900000
+Historical VaR (95%)              -0.00850000    -0.039800000
+Historical ES (95%)               -0.01130000    -0.054000000
+Modified VaR (95%)                -0.00800000    -0.039200000
+Modified ES (95%)                 -0.01120000    -0.052000000
+Annualized Return                  0.30447719    -0.009148183
+Annualized Standard Deviation      0.08421721     0.359732503
+Annualized Sharpe Ratio (Rf=4.7%)  2.90044787    -0.152729465
+                                  GMVPEWMA-NS TangencyEWMA-NS  MRPEWMA-NS
+Maximum Drawdown                    0.1177000       0.1935000  0.21200000
+Historical VaR (95%)               -0.0084000      -0.0138000 -0.02490000
+Historical ES (95%)                -0.0134000      -0.0232000 -0.03170000
+Modified VaR (95%)                 -0.0094000      -0.0160000 -0.02250000
+Modified ES (95%)                  -0.0141000      -0.0251000 -0.03150000
+Annualized Return                   0.2797534       0.2284926  0.09729441
+Annualized Standard Deviation       0.0947551       0.1532778  0.21234040
+Annualized Sharpe Ratio (Rf=4.7%)   2.3289555       1.1206788  0.21950555
+[1] "Model trained in 2004-01-02 - 2006-12-29 using Bayes-Stein"
+[1] "Risk performance in testing period: 2006-01-02 - 2006-12-29"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                          0.06640000             0.07150000
+Historical VaR (95%)                     -0.00660000            -0.00690000
+Historical ES (95%)                      -0.00930000            -0.00960000
+Modified VaR (95%)                       -0.00670000            -0.00690000
+Modified ES (95%)                        -0.00960000            -0.01000000
+Annualized Return                         0.18667181             0.18818680
+Annualized Standard Deviation             0.07097437             0.07295601
+Annualized Sharpe Ratio (Rf=4.7%)         1.85813296             1.82747248
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                          0.10680000             0.10850000         0.2859000
+Historical VaR (95%)                     -0.00920000            -0.00940000        -0.0269000
+Historical ES (95%)                      -0.01210000            -0.01230000        -0.0373000
+Modified VaR (95%)                       -0.00860000            -0.00870000        -0.0252000
+Modified ES (95%)                        -0.01250000            -0.01280000        -0.0372000
+Annualized Return                         0.25112237             0.25373575         0.3512945
+Annualized Standard Deviation             0.08909709             0.08981881         0.2644144
+Annualized Sharpe Ratio (Rf=4.7%)         2.17028448             2.18060354         1.0926976
+[1] "Model trained by data 2005-01-03 to 2006-12-29"
+[1] "Model trained in 2005-01-03 - 2007-12-31 using simple"
+[1] "Risk performance in testing period: 2007-01-02 - 2007-12-31"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                     0.10260000         0.3428000
+Historical VaR (95%)                -0.01540000        -0.0447000
+Historical ES (95%)                 -0.01880000        -0.0699000
+Modified VaR (95%)                  -0.01370000        -0.0495000
+Modified ES (95%)                   -0.01850000        -0.0724000
+Annualized Return                    0.05520950         1.0960825
+Annualized Standard Deviation        0.13096055         0.5090766
+Annualized Sharpe Ratio (Rf=4.4%)    0.07769723         1.9777416
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                      0.1096000         0.1609000    0.1550000
+Historical VaR (95%)                 -0.0148000        -0.0264000   -0.0235000
+Historical ES (95%)                  -0.0206000        -0.0344000   -0.0341000
+Modified VaR (95%)                   -0.0148000        -0.0235000   -0.0255000
+Modified ES (95%)                    -0.0202000        -0.0339000   -0.0380000
+Annualized Return                     0.1548390         0.3417669    0.2011639
+Annualized Standard Deviation         0.1406105         0.2294654    0.2410626
+Annualized Sharpe Ratio (Rf=4.4%)     0.7507964         1.2400669    0.6219228
+[1] "Model trained in 2005-01-03 - 2007-12-31 using EWMA"
+[1] "Risk performance in testing period: 2007-01-02 - 2007-12-31"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                   0.14010000       0.3287000
+Historical VaR (95%)              -0.01390000      -0.0520000
+Historical ES (95%)               -0.01660000      -0.0738000
+Modified VaR (95%)                -0.01270000      -0.0517000
+Modified ES (95%)                 -0.01640000      -0.0806000
+Annualized Return                 -0.06489938       1.2354168
+Annualized Standard Deviation      0.11525008       0.4802316
+Annualized Sharpe Ratio (Rf=4.4%) -0.90955282       2.3743768
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                    0.1286000       0.1734000  0.2399000
+Historical VaR (95%)               -0.0167000      -0.0204000 -0.0345000
+Historical ES (95%)                -0.0221000      -0.0329000 -0.0458000
+Modified VaR (95%)                 -0.0157000      -0.0219000 -0.0317000
+Modified ES (95%)                  -0.0214000      -0.0338000 -0.0456000
+Annualized Return                   0.0683040       0.2593523  0.5506206
+Annualized Standard Deviation       0.1414578       0.2008610  0.3280213
+Annualized Sharpe Ratio (Rf=4.4%)   0.1605627       1.0237929  1.4771311
+[1] "Model trained in 2005-01-03 - 2007-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2007-01-02 - 2007-12-31"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                          0.10320000             0.10710000
+Historical VaR (95%)                     -0.01510000            -0.01530000
+Historical ES (95%)                      -0.01850000            -0.01930000
+Modified VaR (95%)                       -0.01350000            -0.01400000
+Modified ES (95%)                        -0.01830000            -0.01900000
+Annualized Return                         0.07716139             0.09589244
+Annualized Standard Deviation             0.12959856             0.13401259
+Annualized Sharpe Ratio (Rf=4.4%)         0.24069712             0.36659790
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                           0.1093000              0.1110000         0.1550000
+Historical VaR (95%)                      -0.0150000             -0.0148000        -0.0235000
+Historical ES (95%)                       -0.0206000             -0.0208000        -0.0341000
+Modified VaR (95%)                        -0.0148000             -0.0149000        -0.0255000
+Modified ES (95%)                         -0.0202000             -0.0205000        -0.0380000
+Annualized Return                          0.1548377              0.1578054         0.2011683
+Annualized Standard Deviation              0.1407804              0.1423795         0.2410615
+Annualized Sharpe Ratio (Rf=4.4%)          0.7498806              0.7614161         0.6219430
+[1] "Model trained by data 2006-01-02 to 2007-12-31"
+[1] "Model trained in 2006-01-02 - 2008-12-31 using simple"
+[1] "Risk performance in testing period: 2008-01-02 - 2008-12-31"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                      0.4914000                NA
+Historical VaR (95%)                 -0.0288000                NA
+Historical ES (95%)                  -0.0460000                NA
+Modified VaR (95%)                   -0.0295000                NA
+Modified ES (95%)                    -0.0476000                NA
+Annualized Return                    -0.3972904                NA
+Annualized Standard Deviation         0.2743892                NA
+Annualized Sharpe Ratio (Rf=1.4%)    -1.4778894                NA
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                      0.4977000         0.6475000    0.7119000
+Historical VaR (95%)                 -0.0329000        -0.0452000   -0.0619000
+Historical ES (95%)                  -0.0478000        -0.0718000   -0.0820000
+Modified VaR (95%)                   -0.0310000        -0.0433000   -0.0575000
+Modified ES (95%)                    -0.0462000        -0.0571000   -0.0764000
+Annualized Return                    -0.3973634        -0.5259975   -0.5718754
+Annualized Standard Deviation         0.2921327         0.4360827    0.5694665
+Annualized Sharpe Ratio (Rf=1.4%)    -1.3883730        -1.2210409   -1.0145104
+[1] "Model trained in 2006-01-02 - 2008-12-31 using EWMA"
+[1] "Risk performance in testing period: 2008-01-02 - 2008-12-31"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                    0.5141000       0.9905000
+Historical VaR (95%)               -0.0250000      -0.2088000
+Historical ES (95%)                -0.0442000      -0.2908000
+Modified VaR (95%)                 -0.0277000      -0.1077000
+Modified ES (95%)                  -0.0377000      -0.1077000
+Annualized Return                  -0.4146330      -0.9787598
+Annualized Standard Deviation       0.2747676       2.0028087
+Annualized Sharpe Ratio (Rf=1.4%)  -1.5381132      -0.4888416
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                    0.5139000       0.6782000  0.7713000
+Historical VaR (95%)               -0.0359000      -0.0563000 -0.0676000
+Historical ES (95%)                -0.0482000      -0.0807000 -0.1119000
+Modified VaR (95%)                 -0.0311000      -0.0499000 -0.0729000
+Modified ES (95%)                  -0.0453000      -0.0839000 -0.1138000
+Annualized Return                  -0.4123778      -0.6038606 -0.6471623
+Annualized Standard Deviation       0.2916356       0.4627065  0.6930164
+Annualized Sharpe Ratio (Rf=1.4%)  -1.4415224      -1.3167701 -0.9408038
+[1] "Model trained in 2006-01-02 - 2008-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2008-01-02 - 2008-12-31"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                           0.4854000                     NA
+Historical VaR (95%)                      -0.0291000                     NA
+Historical ES (95%)                       -0.0458000                     NA
+Modified VaR (95%)                        -0.0295000                     NA
+Modified ES (95%)                         -0.0481000                     NA
+Annualized Return                         -0.3888084                     NA
+Annualized Standard Deviation              0.2705529                     NA
+Annualized Sharpe Ratio (Rf=1.4%)         -1.4679208                     NA
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                           0.4992000              0.7025000         0.7119000
+Historical VaR (95%)                      -0.0332000             -0.0562000        -0.0619000
+Historical ES (95%)                       -0.0481000             -0.0799000        -0.0820000
+Modified VaR (95%)                        -0.0311000             -0.0527000        -0.0575000
+Modified ES (95%)                         -0.0465000             -0.0685000        -0.0764000
+Annualized Return                         -0.3995579             -0.5731739        -0.5718753
+Annualized Standard Deviation              0.2931645              0.5321807         0.5694644
+Annualized Sharpe Ratio (Rf=1.4%)         -1.3908699             -1.0879951        -1.0145141
+[1] "Model trained by data 2007-01-02 to 2008-12-31"
+[1] "Model trained in 2007-01-02 - 2009-12-31 using simple"
+[1] "Risk performance in testing period: 2009-01-02 - 2009-12-31"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                      0.2752000                NA
+Historical VaR (95%)                 -0.0168000                NA
+Historical ES (95%)                  -0.0243000                NA
+Modified VaR (95%)                   -0.0172000                NA
+Modified ES (95%)                    -0.0238000                NA
+Annualized Return                     0.1276518                NA
+Annualized Standard Deviation         0.1751717                NA
+Annualized Sharpe Ratio (Rf=0.2%)     0.7190459                NA
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                      0.2290000                NA    0.2320000
+Historical VaR (95%)                 -0.0161000                NA   -0.0304000
+Historical ES (95%)                  -0.0262000                NA   -0.0411000
+Modified VaR (95%)                   -0.0176000                NA   -0.0318000
+Modified ES (95%)                    -0.0266000                NA   -0.0409000
+Annualized Return                     0.2510948                NA    0.5148606
+Annualized Standard Deviation         0.1799637                NA    0.3285474
+Annualized Sharpe Ratio (Rf=0.2%)     1.3848053                NA    1.5601567
+[1] "Model trained in 2007-01-02 - 2009-12-31 using EWMA"
+[1] "Risk performance in testing period: 2009-01-02 - 2009-12-31"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                    0.2696000       0.8717000
+Historical VaR (95%)               -0.0191000      -0.1292000
+Historical ES (95%)                -0.0241000      -0.1735000
+Modified VaR (95%)                 -0.0178000      -0.1273000
+Modified ES (95%)                  -0.0231000      -0.1791000
+Annualized Return                   0.1217211      -0.8345496
+Annualized Standard Deviation       0.1874727       1.1462925
+Annualized Sharpe Ratio (Rf=0.2%)   0.6402780      -0.7282617
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                    0.2551000       0.2869000  0.3350000
+Historical VaR (95%)               -0.0176000      -0.0220000 -0.0387000
+Historical ES (95%)                -0.0262000      -0.0334000 -0.0587000
+Modified VaR (95%)                 -0.0180000      -0.0228000 -0.0386000
+Modified ES (95%)                  -0.0262000      -0.0331000 -0.0596000
+Annualized Return                   0.2308684       0.1932000  0.5674144
+Annualized Standard Deviation       0.1845385       0.2245834  0.3796345
+Annualized Sharpe Ratio (Rf=0.2%)   1.2410338       0.8522730  1.4884329
+[1] "Model trained in 2007-01-02 - 2009-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2009-01-02 - 2009-12-31"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                           0.2755000                     NA
+Historical VaR (95%)                      -0.0164000                     NA
+Historical ES (95%)                       -0.0245000                     NA
+Modified VaR (95%)                        -0.0172000                     NA
+Modified ES (95%)                         -0.0242000                     NA
+Annualized Return                          0.1300544                     NA
+Annualized Standard Deviation              0.1728553                     NA
+Annualized Sharpe Ratio (Rf=0.2%)          0.7425600                     NA
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                           0.2306000                     NA         0.2320000
+Historical VaR (95%)                      -0.0170000                     NA        -0.0304000
+Historical ES (95%)                       -0.0264000                     NA        -0.0411000
+Modified VaR (95%)                        -0.0177000                     NA        -0.0318000
+Modified ES (95%)                         -0.0268000                     NA        -0.0409000
+Annualized Return                          0.2625967                     NA         0.5149743
+Annualized Standard Deviation              0.1815905                     NA         0.3285169
+Annualized Sharpe Ratio (Rf=0.2%)          1.4356441                     NA         1.5606471
+[1] "Model trained by data 2008-01-02 to 2009-12-31"
+[1] "Model trained in 2008-01-02 - 2010-12-31 using simple"
+[1] "Risk performance in testing period: 2010-01-04 - 2010-12-31"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                      0.1171000                NA
+Historical VaR (95%)                 -0.0099000                NA
+Historical ES (95%)                  -0.0133000                NA
+Modified VaR (95%)                   -0.0102000                NA
+Modified ES (95%)                    -0.0132000                NA
+Annualized Return                     0.2230233                NA
+Annualized Standard Deviation         0.1069863                NA
+Annualized Sharpe Ratio (Rf=0.1%)     2.0687940                NA
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                      0.1412000                NA   0.25640000
+Historical VaR (95%)                 -0.0131000                NA  -0.02890000
+Historical ES (95%)                  -0.0171000                NA  -0.04060000
+Modified VaR (95%)                   -0.0129000                NA  -0.02850000
+Modified ES (95%)                    -0.0174000                NA  -0.04220000
+Annualized Return                     0.1527283                NA   0.02462475
+Annualized Standard Deviation         0.1251999                NA   0.27257233
+Annualized Sharpe Ratio (Rf=0.1%)     1.2071435                NA   0.08514109
+[1] "Model trained in 2008-01-02 - 2010-12-31 using EWMA"
+[1] "Risk performance in testing period: 2010-01-04 - 2010-12-31"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                    0.1036000       0.2892000
+Historical VaR (95%)               -0.0143000      -0.0323000
+Historical ES (95%)                -0.0170000      -0.0412000
+Modified VaR (95%)                 -0.0124000      -0.0308000
+Modified ES (95%)                  -0.0170000      -0.0412000
+Annualized Return                   0.1948870       0.2928550
+Annualized Standard Deviation       0.1221359       0.3005310
+Annualized Sharpe Ratio (Rf=0.1%)   1.5821304       0.9685118
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                    0.1307000       0.1569000  0.1938000
+Historical VaR (95%)               -0.0159000      -0.0187000 -0.0201000
+Historical ES (95%)                -0.0197000      -0.0261000 -0.0291000
+Modified VaR (95%)                 -0.0135000      -0.0183000 -0.0204000
+Modified ES (95%)                  -0.0195000      -0.0263000 -0.0288000
+Annualized Return                   0.1627795       0.1942055  0.1886495
+Annualized Standard Deviation       0.1333767       0.1726217  0.1927998
+Annualized Sharpe Ratio (Rf=0.1%)   1.2083949       1.1154705  0.9699493
+[1] "Model trained in 2008-01-02 - 2010-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2010-01-04 - 2010-12-31"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                           0.1220000                     NA
+Historical VaR (95%)                      -0.0104000                     NA
+Historical ES (95%)                       -0.0139000                     NA
+Modified VaR (95%)                        -0.0107000                     NA
+Modified ES (95%)                         -0.0137000                     NA
+Annualized Return                          0.1951278                     NA
+Annualized Standard Deviation              0.1105575                     NA
+Annualized Sharpe Ratio (Rf=0.1%)          1.7499994                     NA
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                           0.1409000                     NA        0.25640000
+Historical VaR (95%)                      -0.0132000                     NA       -0.02880000
+Historical ES (95%)                       -0.0170000                     NA       -0.04060000
+Modified VaR (95%)                        -0.0129000                     NA       -0.02850000
+Modified ES (95%)                         -0.0173000                     NA       -0.04210000
+Annualized Return                          0.1547101                     NA        0.02469155
+Annualized Standard Deviation              0.1246982                     NA        0.27249954
+Annualized Sharpe Ratio (Rf=0.1%)          1.2278722                     NA        0.08540863
+[1] "Model trained by data 2009-01-02 to 2010-12-31"
+[1] "Model trained in 2009-01-02 - 2011-12-30 using simple"
+[1] "Risk performance in testing period: 2011-01-03 - 2011-12-30"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                     0.15650000         0.2527000
+Historical VaR (95%)                -0.01490000        -0.0244000
+Historical ES (95%)                 -0.02370000        -0.0352000
+Modified VaR (95%)                  -0.01650000        -0.0258000
+Modified ES (95%)                   -0.02640000        -0.0375000
+Annualized Return                   -0.06094379        -0.1387143
+Annualized Standard Deviation        0.13917398         0.2409825
+Annualized Sharpe Ratio (Rf=0.1%)   -0.44146184        -0.5775092
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                      0.1965000         0.2942000    0.4496000
+Historical VaR (95%)                 -0.0170000        -0.0219000   -0.0400000
+Historical ES (95%)                  -0.0267000        -0.0316000   -0.0551000
+Modified VaR (95%)                   -0.0184000        -0.0228000   -0.0399000
+Modified ES (95%)                    -0.0278000        -0.0331000   -0.0610000
+Annualized Return                    -0.1008463        -0.2056655   -0.2380773
+Annualized Standard Deviation         0.1610825         0.2055327    0.3475824
+Annualized Sharpe Ratio (Rf=0.1%)    -0.6290041        -1.0026898   -0.6861117
+[1] "Model trained in 2009-01-02 - 2011-12-30 using EWMA"
+[1] "Risk performance in testing period: 2011-01-03 - 2011-12-30"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                   0.18390000       0.2391000
+Historical VaR (95%)              -0.01600000      -0.0194000
+Historical ES (95%)               -0.02420000      -0.0284000
+Modified VaR (95%)                -0.01690000      -0.0205000
+Modified ES (95%)                 -0.02550000      -0.0298000
+Annualized Return                 -0.09094818      -0.1568011
+Annualized Standard Deviation      0.14554743       0.1788835
+Annualized Sharpe Ratio (Rf=0.1%) -0.62817043      -0.8790462
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                   0.19260000       0.2510000  0.3058000
+Historical VaR (95%)              -0.01950000      -0.0204000 -0.0282000
+Historical ES (95%)               -0.02700000      -0.0294000 -0.0371000
+Modified VaR (95%)                -0.01900000      -0.0217000 -0.0268000
+Modified ES (95%)                 -0.02910000      -0.0301000 -0.0373000
+Annualized Return                 -0.08976223      -0.1797671 -0.2271158
+Annualized Standard Deviation      0.16687441       0.1948492  0.2462911
+Annualized Sharpe Ratio (Rf=0.1%) -0.54078559      -0.9248219 -0.9238036
+[1] "Model trained in 2009-01-02 - 2011-12-30 using Bayes-Stein"
+[1] "Risk performance in testing period: 2011-01-03 - 2011-12-30"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                          0.16480000             0.16400000
+Historical VaR (95%)                     -0.01430000            -0.01430000
+Historical ES (95%)                      -0.02370000            -0.02360000
+Modified VaR (95%)                       -0.01650000            -0.01640000
+Modified ES (95%)                        -0.02620000            -0.02600000
+Annualized Return                        -0.06732239            -0.06852143
+Annualized Standard Deviation             0.13931184             0.13853893
+Annualized Sharpe Ratio (Rf=0.1%)        -0.48678732            -0.49815348
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                           0.1974000              0.1983000         0.4493000
+Historical VaR (95%)                      -0.0169000             -0.0169000        -0.0400000
+Historical ES (95%)                       -0.0266000             -0.0266000        -0.0550000
+Modified VaR (95%)                        -0.0184000             -0.0184000        -0.0398000
+Modified ES (95%)                         -0.0277000             -0.0275000        -0.0609000
+Annualized Return                         -0.1020040             -0.1034021        -0.2380095
+Annualized Standard Deviation              0.1610570              0.1610468         0.3470152
+Annualized Sharpe Ratio (Rf=0.1%)         -0.6362881             -0.6450048        -0.6870378
+[1] "Model trained by data 2010-01-04 to 2011-12-30"
+[1] "Model trained in 2010-01-04 - 2012-12-31 using simple"
+[1] "Risk performance in testing period: 2012-01-02 - 2012-12-31"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                     0.09200000         0.1564000
+Historical VaR (95%)                -0.00920000        -0.0298000
+Historical ES (95%)                 -0.01210000        -0.0373000
+Modified VaR (95%)                  -0.00890000        -0.0280000
+Modified ES (95%)                   -0.01220000        -0.0370000
+Annualized Return                    0.17384651         0.4800521
+Annualized Standard Deviation        0.09112851         0.2793595
+Annualized Sharpe Ratio (Rf=0.1%)    1.89643516         1.7137700
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                     0.12440000         0.1059000    0.0975000
+Historical VaR (95%)                -0.00900000        -0.0121000   -0.0125000
+Historical ES (95%)                 -0.01250000        -0.0154000   -0.0167000
+Modified VaR (95%)                  -0.00940000        -0.0112000   -0.0120000
+Modified ES (95%)                   -0.01230000        -0.0149000   -0.0162000
+Annualized Return                    0.15496334         0.1528799    0.1451703
+Annualized Standard Deviation        0.09832464         0.1173928    0.1246990
+Annualized Sharpe Ratio (Rf=0.1%)    1.56575799         1.2936989    1.1561281
+[1] "Model trained in 2010-01-04 - 2012-12-31 using EWMA"
+[1] "Risk performance in testing period: 2012-01-02 - 2012-12-31"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                    0.0864000       0.0948000
+Historical VaR (95%)               -0.0098000      -0.0131000
+Historical ES (95%)                -0.0124000      -0.0173000
+Modified VaR (95%)                 -0.0098000      -0.0141000
+Modified ES (95%)                  -0.0126000      -0.0175000
+Annualized Return                   0.1345672       0.0631133
+Annualized Standard Deviation       0.1035891       0.1454146
+Annualized Sharpe Ratio (Rf=0.1%)   1.2894620       0.4276228
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                    0.1291000       0.1205000  0.0975000
+Historical VaR (95%)               -0.0098000      -0.0097000 -0.0125000
+Historical ES (95%)                -0.0131000      -0.0131000 -0.0167000
+Modified VaR (95%)                 -0.0101000      -0.0098000 -0.0120000
+Modified ES (95%)                  -0.0131000      -0.0128000 -0.0162000
+Annualized Return                   0.1238810       0.1200025  0.1451702
+Annualized Standard Deviation       0.1040287       0.1008759  0.1246991
+Annualized Sharpe Ratio (Rf=0.1%)   1.1813792       1.1798874  1.1561269
+[1] "Model trained in 2010-01-04 - 2012-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2012-01-02 - 2012-12-31"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                          0.09120000             0.08980000
+Historical VaR (95%)                     -0.00860000            -0.00890000
+Historical ES (95%)                      -0.01170000            -0.01180000
+Modified VaR (95%)                       -0.00880000            -0.00880000
+Modified ES (95%)                        -0.01190000            -0.01190000
+Annualized Return                         0.17196513             0.17485652
+Annualized Standard Deviation             0.08924097             0.08940324
+Annualized Sharpe Ratio (Rf=0.1%)         1.91548310             1.94431922
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                          0.12460000             0.12440000         0.0975000
+Historical VaR (95%)                     -0.00900000            -0.00900000        -0.0125000
+Historical ES (95%)                      -0.01250000            -0.01250000        -0.0167000
+Modified VaR (95%)                       -0.00940000            -0.00940000        -0.0120000
+Modified ES (95%)                        -0.01240000            -0.01230000        -0.0162000
+Annualized Return                         0.15545118             0.15567189         0.1451755
+Annualized Standard Deviation             0.09840333             0.09832184         0.1246920
+Annualized Sharpe Ratio (Rf=0.1%)         1.56945909             1.57300283         1.1562357
+[1] "Model trained by data 2011-01-03 to 2012-12-31"
+[1] "Model trained in 2011-01-03 - 2013-12-31 using simple"
+[1] "Risk performance in testing period: 2013-01-02 - 2013-12-31"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                      0.0768000         0.3059000
+Historical VaR (95%)                 -0.0090000        -0.0362000
+Historical ES (95%)                  -0.0146000        -0.0499000
+Modified VaR (95%)                   -0.0104000        -0.0355000
+Modified ES (95%)                    -0.0155000        -0.0500000
+Annualized Return                     0.2529759         0.9844875
+Annualized Standard Deviation         0.1023224         0.3685833
+Annualized Sharpe Ratio (Rf=0.1%)     2.4653602         2.6679392
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                     0.09040000        0.07240000    0.0570000
+Historical VaR (95%)                -0.00910000       -0.00950000   -0.0116000
+Historical ES (95%)                 -0.01480000       -0.01420000   -0.0156000
+Modified VaR (95%)                  -0.01040000       -0.00960000   -0.0107000
+Modified ES (95%)                   -0.01790000       -0.01540000   -0.0162000
+Annualized Return                    0.23379102        0.26274388    0.3045636
+Annualized Standard Deviation        0.09836694        0.09714249    0.1090661
+Annualized Sharpe Ratio (Rf=0.1%)    2.36957203        2.69731582    2.7856490
+[1] "Model trained in 2011-01-03 - 2013-12-31 using EWMA"
+[1] "Risk performance in testing period: 2013-01-02 - 2013-12-31"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                    0.1166000     0.215600000
+Historical VaR (95%)               -0.0102000    -0.029900000
+Historical ES (95%)                -0.0152000    -0.034300000
+Modified VaR (95%)                 -0.0116000    -0.027200000
+Modified ES (95%)                  -0.0224000    -0.033800000
+Annualized Return                   0.1263489    -0.006698439
+Annualized Standard Deviation       0.1062072     0.282977049
+Annualized Sharpe Ratio (Rf=0.1%)   1.1835966    -0.025674728
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                    0.1194000       0.1286000  0.1269000
+Historical VaR (95%)               -0.0092000      -0.0111000 -0.0207000
+Historical ES (95%)                -0.0161000      -0.0178000 -0.0306000
+Modified VaR (95%)                 -0.0113000      -0.0130000 -0.0223000
+Modified ES (95%)                  -0.0225000      -0.0223000 -0.0316000
+Annualized Return                   0.1271854       0.1061154  0.2342773
+Annualized Standard Deviation       0.1029734       0.1205999  0.2114274
+Annualized Sharpe Ratio (Rf=0.1%)   1.2288844       0.8746646  1.1047459
+[1] "Model trained in 2011-01-03 - 2013-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2013-01-02 - 2013-12-31"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                           0.0784000              0.0764000
+Historical VaR (95%)                      -0.0089000             -0.0090000
+Historical ES (95%)                       -0.0145000             -0.0144000
+Modified VaR (95%)                        -0.0103000             -0.0103000
+Modified ES (95%)                         -0.0157000             -0.0156000
+Annualized Return                          0.2489216              0.2549234
+Annualized Standard Deviation              0.1015052              0.1013732
+Annualized Sharpe Ratio (Rf=0.1%)          2.4452894              2.5076434
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                          0.09050000             0.09050000         0.0570000
+Historical VaR (95%)                     -0.00910000            -0.00900000        -0.0116000
+Historical ES (95%)                      -0.01470000            -0.01470000        -0.0156000
+Modified VaR (95%)                       -0.01030000            -0.01030000        -0.0107000
+Modified ES (95%)                        -0.01790000            -0.01780000        -0.0162000
+Annualized Return                         0.23277261             0.23321218         0.3045514
+Annualized Standard Deviation             0.09811587             0.09778718         0.1090616
+Annualized Sharpe Ratio (Rf=0.1%)         2.36526185             2.37770470         2.7856520
+[1] "Model trained by data 2012-01-02 to 2013-12-31"
+[1] "Model trained in 2012-01-02 - 2014-12-31 using simple"
+[1] "Risk performance in testing period: 2014-01-02 - 2014-12-31"
+                                GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                   0.06060000         0.1032000
+Historical VaR (95%)              -0.00830000        -0.0161000
+Historical ES (95%)               -0.01030000        -0.0244000
+Modified VaR (95%)                -0.00760000        -0.0176000
+Modified ES (95%)                 -0.01060000        -0.0277000
+Annualized Return                  0.16829404         0.3272002
+Annualized Standard Deviation      0.07762339         0.1769240
+Annualized Sharpe Ratio (Rf=0%)    2.16316322         1.8469320
+                                GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                   0.07410000        0.07010000    0.1999000
+Historical VaR (95%)              -0.00830000       -0.00910000   -0.0165000
+Historical ES (95%)               -0.01090000       -0.01170000   -0.0227000
+Modified VaR (95%)                -0.00800000       -0.00860000   -0.0169000
+Modified ES (95%)                 -0.01100000       -0.01210000   -0.0231000
+Annualized Return                  0.07948100        0.08541857   -0.1115952
+Annualized Standard Deviation      0.07598551        0.08256021    0.1571414
+Annualized Sharpe Ratio (Rf=0%)    1.04135579        1.03032188   -0.7120083
+[1] "Model trained in 2012-01-02 - 2014-12-31 using EWMA"
+[1] "Risk performance in testing period: 2014-01-02 - 2014-12-31"
+                                GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                 0.06970000       0.0973000
+Historical VaR (95%)            -0.01080000      -0.0137000
+Historical ES (95%)             -0.01280000      -0.0200000
+Modified VaR (95%)              -0.00910000      -0.0150000
+Modified ES (95%)               -0.01240000      -0.0228000
+Annualized Return                0.07551582       0.1750815
+Annualized Standard Deviation    0.08542488       0.1464330
+Annualized Sharpe Ratio (Rf=0%)  0.87988501       1.1930181
+                                GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                 0.07790000      0.08780000  0.1999000
+Historical VaR (95%)            -0.00920000     -0.01040000 -0.0165000
+Historical ES (95%)             -0.01160000     -0.01300000 -0.0227000
+Modified VaR (95%)              -0.00830000     -0.00940000 -0.0169000
+Modified ES (95%)               -0.01120000     -0.01300000 -0.0231000
+Annualized Return                0.08685338      0.07473711 -0.1115953
+Annualized Standard Deviation    0.07843155      0.08707432  0.1571415
+Annualized Sharpe Ratio (Rf=0%)  1.10284615      0.85427725 -0.7120087
+[1] "Model trained in 2012-01-02 - 2014-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2014-01-02 - 2014-12-31"
+                                GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                         0.0600000             0.06010000
+Historical VaR (95%)                    -0.0082000            -0.00820000
+Historical ES (95%)                     -0.0102000            -0.01030000
+Modified VaR (95%)                      -0.0076000            -0.00760000
+Modified ES (95%)                       -0.0106000            -0.01070000
+Annualized Return                        0.1695389             0.17232677
+Annualized Standard Deviation            0.0770518             0.07771535
+Annualized Sharpe Ratio (Rf=0%)          2.1953612             2.21247769
+                                GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                        0.07400000             0.07390000         0.1999000
+Historical VaR (95%)                   -0.00830000            -0.00830000        -0.0165000
+Historical ES (95%)                    -0.01090000            -0.01090000        -0.0227000
+Modified VaR (95%)                     -0.00800000            -0.00800000        -0.0169000
+Modified ES (95%)                      -0.01090000            -0.01100000        -0.0231000
+Annualized Return                       0.07948788             0.07963017        -0.1115896
+Annualized Standard Deviation           0.07563408             0.07575063         0.1571387
+Annualized Sharpe Ratio (Rf=0%)         1.04628527             1.04655342        -0.7119845
+[1] "Model trained by data 2013-01-02 to 2014-12-31"
+[1] "Model trained in 2013-01-02 - 2015-12-31 using simple"
+[1] "Risk performance in testing period: 2015-01-02 - 2015-12-31"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                     0.16520000        0.13480000
+Historical VaR (95%)                -0.01170000       -0.01670000
+Historical ES (95%)                 -0.01930000       -0.02590000
+Modified VaR (95%)                  -0.01370000       -0.01830000
+Modified ES (95%)                   -0.02640000       -0.02760000
+Annualized Return                   -0.05952392        0.05804353
+Annualized Standard Deviation        0.11821587        0.17265650
+Annualized Sharpe Ratio (Rf=0.1%)   -0.50765837        0.33299206
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                     0.18050000      0.1344000000  0.122200000
+Historical VaR (95%)                -0.01240000     -0.0126000000 -0.015000000
+Historical ES (95%)                 -0.01920000     -0.0206000000 -0.022400000
+Modified VaR (95%)                  -0.01360000     -0.0142000000 -0.015900000
+Modified ES (95%)                   -0.02490000     -0.0243000000 -0.024000000
+Annualized Return                   -0.06211493     -0.0009796461  0.001694573
+Annualized Standard Deviation        0.11955787      0.1321990617  0.152662093
+Annualized Sharpe Ratio (Rf=0.1%)   -0.52362039     -0.0113415365  0.007686824
+[1] "Model trained in 2013-01-02 - 2015-12-31 using EWMA"
+[1] "Risk performance in testing period: 2015-01-02 - 2015-12-31"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                    0.1838000       0.2635000
+Historical VaR (95%)               -0.0123000      -0.0248000
+Historical ES (95%)                -0.0192000      -0.0334000
+Modified VaR (95%)                 -0.0136000      -0.0251000
+Modified ES (95%)                  -0.0212000      -0.0330000
+Annualized Return                  -0.0743999      -0.1865146
+Annualized Standard Deviation       0.1205481       0.2287086
+Annualized Sharpe Ratio (Rf=0.1%)  -0.6211754      -0.8173638
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                   0.19930000       0.2814000  0.3451000
+Historical VaR (95%)              -0.01200000      -0.0164000 -0.0244000
+Historical ES (95%)               -0.01820000      -0.0258000 -0.0363000
+Modified VaR (95%)                -0.01340000      -0.0187000 -0.0250000
+Modified ES (95%)                 -0.02150000      -0.0308000 -0.0377000
+Annualized Return                 -0.07776417      -0.1071118 -0.1035462
+Annualized Standard Deviation      0.12139284       0.1731056  0.2465059
+Annualized Sharpe Ratio (Rf=0.1%) -0.64455259      -0.6214502 -0.4219482
+[1] "Model trained in 2013-01-02 - 2015-12-31 using Bayes-Stein"
+[1] "Risk performance in testing period: 2015-01-02 - 2015-12-31"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                          0.16570000             0.16380000
+Historical VaR (95%)                     -0.01190000            -0.01180000
+Historical ES (95%)                      -0.01930000            -0.01940000
+Modified VaR (95%)                       -0.01370000            -0.01370000
+Modified ES (95%)                        -0.02640000            -0.02650000
+Annualized Return                        -0.05942358            -0.05673165
+Annualized Standard Deviation             0.11789949             0.11770046
+Annualized Sharpe Ratio (Rf=0.1%)        -0.50817005            -0.48617014
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                          0.18240000             0.18090000       0.122200000
+Historical VaR (95%)                     -0.01250000            -0.01250000      -0.015000000
+Historical ES (95%)                      -0.01920000            -0.01920000      -0.022400000
+Modified VaR (95%)                       -0.01370000            -0.01370000      -0.015900000
+Modified ES (95%)                        -0.02500000            -0.02500000      -0.024000000
+Annualized Return                        -0.06601577            -0.06377941       0.001695660
+Annualized Standard Deviation             0.12020359             0.12001602       0.152660696
+Annualized Sharpe Ratio (Rf=0.1%)        -0.55324268            -0.53548318       0.007694012
+[1] "Model trained by data 2014-01-02 to 2015-12-31"
+[1] "Model trained in 2014-01-02 - 2016-12-30 using simple"
+[1] "Risk performance in testing period: 2016-01-04 - 2016-12-30"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                    0.103900000         0.5113000
+Historical VaR (95%)               -0.010700000        -0.0686000
+Historical ES (95%)                -0.017100000        -0.0980000
+Modified VaR (95%)                 -0.011900000        -0.0696000
+Modified ES (95%)                  -0.021600000        -0.1054000
+Annualized Return                   0.005216943        -0.2602970
+Annualized Standard Deviation       0.111206007         0.6864545
+Annualized Sharpe Ratio (Rf=0.3%)   0.018382430        -0.3825988
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                     0.11490000         0.1075000    0.1052000
+Historical VaR (95%)                -0.01080000        -0.0114000   -0.0125000
+Historical ES (95%)                 -0.01730000        -0.0179000   -0.0201000
+Modified VaR (95%)                  -0.01210000        -0.0121000   -0.0135000
+Modified ES (95%)                   -0.01990000        -0.0214000   -0.0218000
+Annualized Return                    0.05306039         0.0951310    0.1064495
+Annualized Standard Deviation        0.11753227         0.1151336    0.1290959
+Annualized Sharpe Ratio (Rf=0.3%)    0.42317981         0.7962543    0.7975358
+[1] "Model trained in 2014-01-02 - 2016-12-30 using EWMA"
+[1] "Risk performance in testing period: 2016-01-04 - 2016-12-30"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                   0.11030000              NA
+Historical VaR (95%)              -0.01470000              NA
+Historical ES (95%)               -0.02120000              NA
+Modified VaR (95%)                -0.01480000              NA
+Modified ES (95%)                 -0.02270000              NA
+Annualized Return                 -0.06795345              NA
+Annualized Standard Deviation      0.13908462              NA
+Annualized Sharpe Ratio (Rf=0.3%) -0.50973381              NA
+                                  GMVPEWMA-NS TangencyEWMA-NS  MRPEWMA-NS
+Maximum Drawdown                   0.12490000      0.14640000  0.14640000
+Historical VaR (95%)              -0.01210000     -0.02240000 -0.02240000
+Historical ES (95%)               -0.01900000     -0.02900000 -0.02900000
+Modified VaR (95%)                -0.01340000     -0.02190000 -0.02190000
+Modified ES (95%)                 -0.02040000     -0.02930000 -0.02930000
+Annualized Return                  0.02732708      0.08665028  0.08665028
+Annualized Standard Deviation      0.13326703      0.20972748  0.20972747
+Annualized Sharpe Ratio (Rf=0.3%)  0.18072611      0.39680730  0.39680729
+[1] "Model trained in 2014-01-02 - 2016-12-30 using Bayes-Stein"
+[1] "Risk performance in testing period: 2016-01-04 - 2016-12-30"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                         0.104200000           0.1038000000
+Historical VaR (95%)                    -0.010900000          -0.0104000000
+Historical ES (95%)                     -0.017500000          -0.0168000000
+Modified VaR (95%)                      -0.012200000          -0.0118000000
+Modified ES (95%)                       -0.022800000          -0.0224000000
+Annualized Return                        0.001779828           0.0006539137
+Annualized Standard Deviation            0.113361693           0.1095794195
+Annualized Sharpe Ratio (Rf=0.3%)       -0.012191745          -0.0228550745
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                          0.11500000             0.11470000         0.1052000
+Historical VaR (95%)                     -0.01080000            -0.01060000        -0.0125000
+Historical ES (95%)                      -0.01740000            -0.01700000        -0.0200000
+Modified VaR (95%)                       -0.01210000            -0.01180000        -0.0135000
+Modified ES (95%)                        -0.01990000            -0.01940000        -0.0218000
+Annualized Return                         0.05359486             0.05651275         0.1064458
+Annualized Standard Deviation             0.11808913             0.11514487         0.1290894
+Annualized Sharpe Ratio (Rf=0.3%)         0.42569601             0.46184247         0.7975473
+[1] "Model trained by data 2015-01-02 to 2016-12-30"
+[1] "Model trained in 2015-01-02 - 2017-12-29 using simple"
+[1] "Risk performance in testing period: 2017-01-02 - 2017-12-29"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                     0.03200000         0.5539000
+Historical VaR (95%)                -0.00480000        -0.0551000
+Historical ES (95%)                 -0.00580000        -0.0689000
+Modified VaR (95%)                  -0.00470000        -0.0502000
+Modified ES (95%)                   -0.00590000        -0.0693000
+Annualized Return                    0.23433813        -0.2298303
+Annualized Standard Deviation        0.05368284         0.4690995
+Annualized Sharpe Ratio (Rf=0.9%)    4.15162262        -0.5052272
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                     0.01970000         0.0856000   0.19800000
+Historical VaR (95%)                -0.00400000        -0.0106000  -0.01820000
+Historical ES (95%)                 -0.00590000        -0.0143000  -0.02440000
+Modified VaR (95%)                  -0.00420000        -0.0105000  -0.01780000
+Modified ES (95%)                   -0.00560000        -0.0142000  -0.02500000
+Annualized Return                    0.25090899         0.1161189   0.03469512
+Annualized Standard Deviation        0.04950298         0.1071577   0.17384628
+Annualized Sharpe Ratio (Rf=0.9%)    4.83381861         0.9868233   0.14423875
+[1] "Model trained in 2015-01-02 - 2017-12-29 using EWMA"
+[1] "Risk performance in testing period: 2017-01-02 - 2017-12-29"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                   0.02900000              NA
+Historical VaR (95%)              -0.00510000              NA
+Historical ES (95%)               -0.00700000              NA
+Modified VaR (95%)                -0.00510000              NA
+Modified ES (95%)                 -0.00680000              NA
+Annualized Return                  0.20710427              NA
+Annualized Standard Deviation      0.05461471              NA
+Annualized Sharpe Ratio (Rf=0.9%)  3.58674537              NA
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                   0.02000000       0.0697000  0.1980000
+Historical VaR (95%)              -0.00440000      -0.0106000 -0.0182000
+Historical ES (95%)               -0.00630000      -0.0154000 -0.0244000
+Modified VaR (95%)                -0.00460000      -0.0101000 -0.0178000
+Modified ES (95%)                 -0.00650000      -0.0137000 -0.0250000
+Annualized Return                  0.24960439       0.1533127  0.0346951
+Annualized Standard Deviation      0.05162877       0.1139616  0.1738463
+Annualized Sharpe Ratio (Rf=0.9%)  4.60975274       1.2512556  0.1442386
+[1] "Model trained in 2015-01-02 - 2017-12-29 using Bayes-Stein"
+[1] "Risk performance in testing period: 2017-01-02 - 2017-12-29"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                          0.03050000             0.03020000
+Historical VaR (95%)                     -0.00450000            -0.00450000
+Historical ES (95%)                      -0.00580000            -0.00570000
+Modified VaR (95%)                       -0.00440000            -0.00440000
+Modified ES (95%)                        -0.00570000            -0.00570000
+Annualized Return                         0.24894995             0.24238572
+Annualized Standard Deviation             0.05193731             0.05197058
+Annualized Sharpe Ratio (Rf=0.9%)         4.56988422             4.44182113
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                           0.0201000             0.01970000        0.19800000
+Historical VaR (95%)                      -0.0039000            -0.00390000       -0.01820000
+Historical ES (95%)                       -0.0059000            -0.00590000       -0.02440000
+Modified VaR (95%)                        -0.0042000            -0.00420000       -0.01780000
+Modified ES (95%)                         -0.0056000            -0.00560000       -0.02500000
+Annualized Return                          0.2538454             0.25028432        0.03469713
+Annualized Standard Deviation              0.0495453             0.04943343        0.17384466
+Annualized Sharpe Ratio (Rf=0.9%)          4.8884085             4.82809956        0.14425155
+[1] "Model trained by data 2016-01-04 to 2017-12-29"
+[1] "Model trained in 2016-01-04 - 2018-11-30 using simple"
+[1] "Risk performance in testing period: 2018-01-02 - 2018-11-30"
+                                  GMVPsimple-SS Tangencysimple-SS
+Maximum Drawdown                    0.110300000        0.11250000
+Historical VaR (95%)               -0.011100000       -0.01570000
+Historical ES (95%)                -0.018900000       -0.02470000
+Modified VaR (95%)                 -0.013100000       -0.01780000
+Modified ES (95%)                  -0.023000000       -0.02820000
+Annualized Return                   0.018836567        0.08822506
+Annualized Standard Deviation       0.112990505        0.16512693
+Annualized Sharpe Ratio (Rf=1.9%)  -0.003067861        0.41023042
+                                  GMVPsimple-NS Tangencysimple-NS MRPsimple-NS
+Maximum Drawdown                     0.11750000        0.13220000    0.3497000
+Historical VaR (95%)                -0.01180000       -0.01290000   -0.0299000
+Historical ES (95%)                 -0.01900000       -0.01960000   -0.0384000
+Modified VaR (95%)                  -0.01330000       -0.01420000   -0.0296000
+Modified ES (95%)                   -0.02100000       -0.02290000   -0.0376000
+Annualized Return                   -0.01040219       -0.02733943   -0.0308653
+Annualized Standard Deviation        0.11459435        0.12203543    0.3024296
+Annualized Sharpe Ratio (Rf=1.9%)   -0.25338964       -0.37412596   -0.1624149
+[1] "Model trained in 2016-01-04 - 2018-11-30 using EWMA"
+[1] "Risk performance in testing period: 2018-01-02 - 2018-11-30"
+                                  GMVPEWMA-SS TangencyEWMA-SS
+Maximum Drawdown                   0.11240000      0.12540000
+Historical VaR (95%)              -0.01140000     -0.01260000
+Historical ES (95%)               -0.01770000     -0.01660000
+Modified VaR (95%)                -0.01280000     -0.01260000
+Modified ES (95%)                 -0.02000000     -0.01810000
+Annualized Return                  0.01386395     -0.03311217
+Annualized Standard Deviation      0.11149538      0.11994343
+Annualized Sharpe Ratio (Rf=1.9%) -0.04687170     -0.42787721
+                                  GMVPEWMA-NS TangencyEWMA-NS MRPEWMA-NS
+Maximum Drawdown                    0.1120000      0.12780000  0.1600000
+Historical VaR (95%)               -0.0122000     -0.01180000 -0.0150000
+Historical ES (95%)                -0.0184000     -0.01550000 -0.0210000
+Modified VaR (95%)                 -0.0131000     -0.01190000 -0.0154000
+Modified ES (95%)                  -0.0194000     -0.01620000 -0.0213000
+Annualized Return                  -0.0208220     -0.06193951 -0.1212029
+Annualized Standard Deviation       0.1125640      0.10410588  0.1336460
+Annualized Sharpe Ratio (Rf=1.9%)  -0.3487915     -0.76467817 -1.0307758
+[1] "Model trained in 2016-01-04 - 2018-11-30 using Bayes-Stein"
+[1] "Risk performance in testing period: 2018-01-02 - 2018-11-30"
+                                  GMVPBayes-Stein-SS TangencyBayes-Stein-SS
+Maximum Drawdown                          0.11360000             0.11320000
+Historical VaR (95%)                     -0.01190000            -0.01190000
+Historical ES (95%)                      -0.01920000            -0.01920000
+Modified VaR (95%)                       -0.01340000            -0.01340000
+Modified ES (95%)                        -0.02280000            -0.02290000
+Annualized Return                         0.01101402             0.01163860
+Annualized Standard Deviation             0.11575731             0.11605045
+Annualized Sharpe Ratio (Rf=1.9%)        -0.06930450            -0.06384842
+                                  GMVPBayes-Stein-NS TangencyBayes-Stein-NS MRPBayes-Stein-NS
+Maximum Drawdown                          0.11860000             0.11860000        0.34970000
+Historical VaR (95%)                     -0.01170000            -0.01170000       -0.02990000
+Historical ES (95%)                      -0.01890000            -0.01890000       -0.03840000
+Modified VaR (95%)                       -0.01330000            -0.01330000       -0.02960000
+Modified ES (95%)                        -0.02070000            -0.02070000       -0.03760000
+Annualized Return                        -0.01154064            -0.01161904       -0.03086807
+Annualized Standard Deviation             0.11463607             0.11469770        0.30242483
+Annualized Sharpe Ratio (Rf=1.9%)        -0.26304215            -0.26357149       -0.16242643
