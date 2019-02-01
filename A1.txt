@@ -1,0 +1,76 @@
+1 (a)
+For the generator x_{n+1} = (a x_{n} + c) (mod 2^8), since
+c=1 is relatively prime with m=2^8
+and 2 is a prime factor of m=2^8
+the maximal period = 2^8 if
+(a-1) = 2i and (a-1) = 4j for integers i, j
+ie a-1 = 4j
+a = 4j+1
+
+1 (b)
+For c=0, the generator becomes x_{n+1} = (a x_{n}) (mod 2^8),
+the maximal period = 2^{8-2} = 2^6 = 64, if
+x_0 is odd, and
+a (mod 8) = 3 or 5
+ie a = 8i+3 or a = 8i+5 for integers i
+
+2 (a)
+n = 100
+R_a = 71 runs for up and down movement
+E(R_a) = 2*(n-2)/3 = 65.333333
+Var(R_a) = (16*n-29)/90 = 17.455556
+|Z_a| = |R_a - E(R_a)| /sqrt(Var(R_a)) = (71-65.333333)/sqrt(17.455556) = 1.356316
+
+For alpha = 0.1, Z_{alpha/2} = 1.644854
+Not rejected, as |Z_a| < Z_{alpha/2}
+
+2 (b)
+R_b = 54 runs for deviated sequence from theoretical mean 1
+n_1 = 45 (+ve)
+n_2 = 55 (-ve)
+E(R_b) = 2*n1*n2/n+1 = 50.5
+Var(R_b) = 2*n1*n2*(2*n1*n2-n) / (n^2 * (n-1)) = 24.25
+|Z_b| = |R_b - E(R_b)| /sqrt(Var(R_b)) = (54-50.5)/sqrt(24.25) = 0.710742
+
+For alpha = 0.1, Z_{alpha/2} = 1.644854
+Not rejected, as |Z_b| < Z_{alpha/2}
+
+3
+
+
+4
+f(x) = 2 / (exp(pi*x) + exp(-pi*x))
+F(x) = 2 * Int { exp(pi*x) / (exp(2pi*x) + 1) } dx
+Let u = exp(pi*x); du = pi*exp(pi*x) dx => dx = du / pi*exp(pi*x)
+F(x) = 2 * Int { 1/pi * 1 / (u^2 + 1) } du = 2* arctan(u)/pi
+= [2/pi * arctan(exp(pi*x))]_{-inf}^x
+
+So,
+F(x) = 2/pi * arctan(exp(pi*x))
+Inverse cdf X = ln(tan(pi*U/2))/pi where U from U(0,1)
+
+Algorithm:
+Step 1. Generate U ~ U(0,1)
+Step 2. Transform the value of U by the inverse cdf X = F^{-1}(U) = ln(tan(pi*U/2))/pi
+
+5
+X ~ Gamma(2,2)
+f(x) = 4x*exp(-2x), x>0
+Let g(y) = exp(-y), y>0 the standard exponential pdf
+We require cg(y) >= f(y), y>0
+c*exp(-y) >= 4y*exp(-2y) , y>0
+c >= 4y*exp(-y), y>0
+
+d (4y*exp(-y)) / dy = 4*[exp(-y)-y*exp(-y)] = -4(y-1)exp(-y)
+d (-4(y-1)exp(-y)) / dy = -4*[(1-y)exp(-y)+exp(-y)] = 4(y-2)exp(-y)
+Set -4(y-1)exp(-y) = 0 => y=1
+And 4(1-2)exp(-1) = -4exp(-1) < 0 => 4y*exp(-y) is maximized at y=1
+So we choose c = 4*exp(-1)
+
+Algorithm:
+Step 1. Generate Y ~ U(0,1)
+Step 2. Generate U ~ U(0,1) independent of Y
+Step 3. If U < f(y)/cg(y) = Y*exp(-Y)/exp(-1), then stop and set the required random number be Y; otherwise, go back to Step 1.
+
+6
+
