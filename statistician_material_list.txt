@@ -1,8 +1,11 @@
+~~~ Sampling ~~~
+
 Sampling (Wikipedia)
 https://en.wikipedia.org/wiki/Sampling_(statistics)
   This was very useful last time in answering last essay question!
 
 ~~~ Basic Stat ~~~
+
 Discrete Random Variable
 https://www.probabilitycourse.com/chapter3/3_1_2_discrete_random_var.php
   3.1.2 - 3.2.5 (skip the Negative Binomial distribution! For Hypergeometric, don't memorize. Just treat as a refresher how to do counting)
@@ -14,6 +17,11 @@ https://www.probabilitycourse.com/chapter4/4_1_0_continuous_random_vars_distribu
 Sums of Random Variables
 https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php
   6.1.2 only
+
+Point Estimate, Interval Estimate, Hypothesis Testing
+https://www.probabilitycourse.com/chapter8/8_1_1_random_sampling.php
+  8.1.1 - 8.4.4 (No need to read proofs, won't be asked I guess)
+  This part may be better off using the STAT7003 notes in X1C, but sometimes this webpage has graphs.
 
 ~~~ Census and Statistics Department ~~~
 
