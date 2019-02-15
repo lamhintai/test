@@ -1,0 +1,28 @@
+Sampling (Wikipedia)
+https://en.wikipedia.org/wiki/Sampling_(statistics)
+  This was very useful last time in answering last essay question!
+
+~~~ Basic Stat ~~~
+Discrete Random Variable
+https://www.probabilitycourse.com/chapter3/3_1_2_discrete_random_var.php
+  3.1.2 - 3.2.5 (skip the Negative Binomial distribution! For Hypergeometric, don't memorize. Just treat as a refresher how to do counting)
+
+Continuous Random Variable
+https://www.probabilitycourse.com/chapter4/4_1_0_continuous_random_vars_distributions.php
+  4.1.0 - 4.2.3 (Focus on Normal if no time)
+
+Sums of Random Variables
+https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php
+  6.1.2 only
+
+~~~ Census and Statistics Department ~~~
+
+Concepts of GDP and GNI
+https://www.statistics.gov.hk/pub/B8XX00262012XXXXB0100.pdf
+  The pages printed as page 1-9 (not pdf file page number), and 14-17 (I guess exclude RGNI).
+  Concept only is enough..
+  I remember a question asking something on how to measure a case similar to the examples on p.16 last year.
+
+Introduction to the Consumer Price Index
+  https://www.statistics.gov.hk/pub/B8XX0021.pdf
+  Just first 3.5 pages are enough. Just very brief concept. No need to memorize numbers / ratios I believe.
