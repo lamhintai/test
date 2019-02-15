@@ -3,6 +3,7 @@
 Sampling (Wikipedia)
 https://en.wikipedia.org/wiki/Sampling_(statistics)
   This was very useful last time in answering last essay question!
+  Sections: Population Definition, Sampling frame, Sampling methods, and Errors in sampling surveys
 
 ~~~ Basic Stat ~~~
 
