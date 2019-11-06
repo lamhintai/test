@@ -1,25 +1,4 @@
-http://www.etnet.com.hk/mobile/tc/lifestyle/voting.php?id=1228
-
- 
-
-http://www.etnet.com.hk/www/tc/lifestyle/voting.php?id=1228#vote
-
- 
-
- 
-
-20191003 15:21
-
-independence
-
- 
-
-https://nam05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fhome-use-program%2Fhome%3Ftoken%3Dd195c269-e1e6-4057-b880-3ba86665bc64%26ocid%3Deml_OrganicEligibility_cons_officehup_acq_hup_poceligibility&data=02%7C01%7CTai.Lam%40iongroup.com%7C2bb6fe5b12404c6c4e5208d743ec307d%7C768fe7d4ebee41a79851d5825ecdd396%7C0%7C0%7C637052554018313778&sdata=RvNEnW%2Bp9dZUn%2FqL%2BETv4%2BVBwq3REURegPgArJbkYzA%3D&reserved=0
-
- 
-
-https://nam05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fhome-use-program%2Fhome%3Ftoken%3D94f0566b-7032-49d2-8440-2ad2ccd48f71%26ocid%3Deml_OrganicEligibility_cons_officehup_acq_hup_poceligibility&data=02%7C01%7Ctai.lam%40iongroup.com%7Cabc541c425c743667ec108d743cc040a%7C768fe7d4ebee41a79851d5825ecdd396%7C0%7C0%7C637052415828833293&sdata=bE1sfi45lfpOThZO%2B0wuuBd9vEc%2FLcvjT%2FQaY8UtlFk%3D&reserved=0
-
- 
-
-https://nam05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fhome-use-program%2Fhome%3Ftoken%3Dd195c269-e1e6-4057-b880-3ba86665bc64%26ocid%3Deml_OrganicEligibility_cons_officehup_acq_hup_poceligibility&data=02%7C01%7Ctai.lam%40iongroup.com%7C3af1d64fe0434d098fd508d743cbff17%7C768fe7d4ebee41a79851d5825ecdd396%7C0%7C0%7C637052415753424629&sdata=ASLNyURVjbPYfWFpxd9TC%2Ftf%2BpOGCIs9ZtN%2FTv4Rw6I%3D&reserved=0
+I am writing to apply for the position of Data Scientist, Global Banking & Markets.
+Fidessa products are used by HSBC GBM for trading global markets. My work in Fidessa is in software project delivery. I have worked on system integration with global market data system, which involved collaboration with business, development and project teams in HK, UK and US. I have managed cross-region system and data migration projects and expansion projects for establishing new market data service covering Singapore, Malysia, Taiwan, Korea, Thailand, integrating them into the global data network for the company to expand into SE Asia. As the HK Market Data Delivery team leader, I was responsible for driving these regional projects, from reviewing the architectural design to deploying system to production. Also, I previously work in HSBC on the dark pool project that involved HSBC GBM and RBWM teams, integrating institutional and retail trading flows. These proved my knowledge and experience in the financial trading industry. I also expect to gain the PMP credentials end of this year.
+I have a strong passion in data science. Since 2016 up to 2019, I have gained Statistician qualifications from the Royal Statistical Society and later on gained a Master of Statistics. I have implemented projects on data mining, machine learning, statistical modelling, financial data anlysis etc., using R and Python these 2 years. Our data mining project group obtained a First Prize in the HKU Data Mining Hackathon which competed on both analytics / visualization techniques and also delivering business sense and value. The coursework also exposed me to big data technologies for unstructured data using Hadoop and Spark. Combining the analytical and visualization skills gained in coursework, and experience working with structured data using SQL in my day job, I will be up to the challenge in the Data Scientist role.
+This data scientist role will require constant uptake of new technologies. I believe that I can quickly build up the knowledge, based on my passion in data science and background in the software industry. This will be a solid foundation upon which I can contribute to your team. I really hope that I can get this exciting opportunity to work with you.
